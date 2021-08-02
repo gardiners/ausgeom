@@ -1,13 +1,17 @@
 Package: ausgeom
-Title: What the Package Does (One Line, Title Case)
+Title: Geographical geometries for Australia
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Sam",
+           family = "Gardiner",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+           email = "sam.gardiner@gmail.com",
+           comment = c(ORCID = "0000-0002-6752-6969"))
+Description: ausgeom provides R bindings to the geospatial web services provided by
+    the Australian Bureau of Statistics. Functions are provided for the simple
+    and on-the-fly download of sf spatial geometries for a range of statistical and
+    andminstrative divisions, including states, regions, statistical areas, post
+    code approximations, electorates and Indigenous structures.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
